@@ -9,8 +9,8 @@ app.use(bodyParser.json());
 
 
 
-let email = require('./mail')
-
+//let email = require('./mail')
+let email = require('./newMail')
 
 app.listen(port,()=> console.info(`Server has started on port ${port}`));
 app.use(express.static('public'))
