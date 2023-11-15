@@ -4,7 +4,7 @@ var express = require('express'),
 const cors = require('cors');
 
 app.use(cors({
-    origin: 'http://localhost:4321'
+    origin: 'https://migueldelgado27.github.io'
 }));
 app.use(express.json()); // for parsing application/json
 app.use(express.urlencoded({ extended: true })); // for parsing application/x-www-form-urlencoded
