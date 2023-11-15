@@ -1,8 +1,9 @@
 var express = require('express'),
     app     = express(),
     port    = process.env.PORT || 8000;
+const cors = require('cors');
 
-
+app.use(cors());
 app.use(express.json()); // for parsing application/json
 app.use(express.urlencoded({ extended: true })); // for parsing application/x-www-form-urlencoded
     
