@@ -6,7 +6,7 @@
   "dependencies": {
     "express": "^4.17.3",
     "express-mailer": "^0.3.1",
-    "nodemailer": "^6.2.1",
+    "nodemailer": "^6.6.1",
     "resend": "^2.0.0",
     "xoauth2": "^1.2.0"
   },
