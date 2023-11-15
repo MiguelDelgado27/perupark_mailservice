@@ -1,14 +1,11 @@
 var express = require('express'),
     app     = express(),
-    port    = process.env.PORT || 8000,
-    bodyParser = require('body-parser');
+    port    = process.env.PORT || 8000;
 
 
-app.use(bodyParser.urlencoded({ extended: false }));
-app.use(bodyParser.json());
-
-
-
+app.use(express.json()); // for parsing application/json
+app.use(express.urlencoded({ extended: true })); // for parsing application/x-www-form-urlencoded
+    
 //let email = require('./mail')
 let email = require('./newMail')
 
