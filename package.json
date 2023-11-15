@@ -13,7 +13,7 @@
   "keywords": [],
   "author": "Miguel-Delgado",
   "engines": {
-    "node": "14.x"
+    "node": "20.x"
   },
   "license": "ISC"
 }
